@@ -11,8 +11,9 @@ What the app can do:
 - add a student
 - delete a student
 - assign a tech watch to a group of student 
-- see the past and the next tech watch 
-- see the available student ...
+- show the past and the next tech watch 
+- show the available student 
+- and more...
 
 
 ### Mandatory
