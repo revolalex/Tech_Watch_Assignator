@@ -5,8 +5,15 @@
 [![Repos Badge](https://badges.pufler.dev/repos/puf17640)](https://github.com/revolalex)
 ![Profile views](https://gpvc.arturio.dev/revolalex)  
 Full Stack Project (Front-End, Back-End, API, DB)
-> The goal was to realize a groupe generator in wich you can add a list off students, chose a number of students per groups and generate a groups randomly.
+> The goal was to realize a tech watch assignator for student 👩‍🎓 👨‍🎓 
 ---
+What the app can do:
+- add a student
+- delete a student
+- assign a tech watch to a group of student 
+- see the past and the next tech watch 
+- see the available student ...
+
 
 ### Mandatory
 Use MongoDB and Mongoose, Express, NodeJS, HTML, CSS, EJS...
@@ -41,8 +48,9 @@ Use MongoDB and Mongoose, Express, NodeJS, HTML, CSS, EJS...
 
 
 ## Running the project
+(api2.js use mongoose)
 
-    $ npm server.js
+    $ npm api.js
     and
     $ node main.js
     
