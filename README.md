@@ -62,7 +62,10 @@ Front-End: <br>
 - main.js for the server
 
 
-## API end points:
+
+## Contact	
+- [![LinkedIn][linkedin-shield]][linkedin-url] 	
+- revolalex@gmail.com
 
 
 
