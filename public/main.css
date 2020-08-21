@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#title_past {
+  text-align: center;
+}
+.central {
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 5px 10px 3px #4d4a4a;
+  padding: 3% 3% 3% 3%;
+  margin: 0% 15% 0% 15%;
+  margin-bottom: 5%;
+  background-color: rgba(124, 124, 124, 0.6);
+}
+.past-div {
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 5px 10px 3px #4d4a4a;
+  padding: 1% 8% 1% 8%;
+  margin-bottom: 5%;
+  background-color: rgba(124, 124, 124, 0.6);
+
+}
+.central form {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
+#studentFree {
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 5px 10px 3px #4d4a4a;
+  padding: 3% 3% 3% 3%;
+  margin: 0% 20% 0% 20%;
+  margin-bottom: 5%;
+  background-color: rgba(124, 124, 124, 0.6);
+}
+
+.nextTechWatch{
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* student */
+.mainDiv {
+  text-align: center;
+  color: black;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 5px 10px 3px #4d4a4a;
+  padding: 3% 3% 3% 3%;
+  margin: 5% 25% 0% 25%;
+  margin-bottom: 5%;
+  background-color: rgba(243, 181, 217, 0.6);
+}
+.mainDiv form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainDiv form input {
+  border-radius: 10px 10px 10px 10px;
+}
+.mainDiv form button {
+  border-radius: 10px 10px 10px 10px;
+}
+.mainDiv form select {
+  border-radius: 10px 10px 10px 10px;
+  width: 150px;
+}
+#deleteButton {
+  background-color: rgb(230, 72, 72);
+}
+#addButton {
+  background-color: rgb(112, 202, 100);
+  border-radius: 10px 10px 10px 10px;
+}
+
+@media (max-width: 600px) {
+  .mainDiv form select {
+    width: 110px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .central {
+    margin: 0% 25% 0% 25%;
+
+  }
+  .central form {
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 45% 0 45%;
+  }
+  
+  .central form button {
+    width: 150px;
+    margin-top: 5px;
+  }
+  .central form label {
+    margin-top: 10px;
+    min-width: 200px;
+  }
+}

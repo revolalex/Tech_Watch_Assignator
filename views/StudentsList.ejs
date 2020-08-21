@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Student List</title>
+  </head>
+  <style>
+    h2 {
+      text-align: center;
+    }
+    li {
+      list-style: none;
+    }
+
+  </style>
+  <body>
+    <%- include('partial/navbar') %>
+
+    <div class="mainDiv">
+      <h2>List of students</h2>
+
+      <ul>
+        <% for (var i = 0; i < studentArray.length ; i++) { %>
+        <li><%= studentArray[i].name %></li>
+        <% } %>
+      </ul>
+
+      <form action="/StudentsList" method="POST">
+        <label for="name">Add student</label>
+        <input type="text" name="name" required/>
+        <button id="addButton" type="submit">Add student</button>
+      </form>
+      <br>
+
+      <form action="/StudentsListDelete" method="POST">
+        <label for="nameToDelete">Delete student</label>
+        <select id="nameToDelete" name="nameToDelete" place>
+          <option>Select a name</option>
+          <% for (var i = 0; i < studentArray.length ; i++) { %>
+          <option><%= studentArray[i].name %></option>
+          <% } %>
+        </select>
+        <button id="deleteButton" type="submit">Delete student</button>
+      </form>
+      
+    </div>
+    <div style="padding-top: 15vh;">
+      <%- include('partial/footer') %>
+    </div>
+    <%- include('partial/anim') %>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 25% 10% 25%;
+}
+
+.container_title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container_name {
+  flex-direction: row;
+  padding: 0% 1%;
+}
+
+.sousContainer {
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 5px 5px 10px 3px #4d4a4a;
+  padding: 1% 8% 1% 8%;
+  margin-bottom: 5%;
+  background-color: rgba(124, 124, 124, 0.6);
+}
+.container_student {
+  display: flex;
+  flex-direction: row;
+}
+.container_date {
+  display: flex;
+  flex-direction: row;
+}
+.container_p {
+  color: rgb(66, 66, 66);
+  font-weight: bolder;
+  align-content: space-around;
+}
+.date {
+  padding: 0% 1%;
+}
+#central{
+  text-align: center;
+}
+
+#studentFree li{
+  list-style: none;
+}
+

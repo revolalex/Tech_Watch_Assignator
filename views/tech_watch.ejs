@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Watch Assignator</title>
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="next_tech_watch.css" />
+  </head>
+  <body>
+    <%- include('partial/navbar') %> <%- include('partial/next_tech_watch') %>
+
+    <div class="central">
+      <h2>Add Tech Watch</h2>
+
+      <form action="/TechWatch" method="POST">
+        <label for="tech">Subject</label>
+        <input type="text" name="tech" required/>
+        <label for="date">Deadline</label>
+
+        <input type="date" name="date" required/>
+
+        <label for="number">Number students</label>
+        <input
+          type="number"
+          name="number"
+          max="<%= listOfStudentFree.length %>"
+          required/>
+        <button id="addButton" type="submit">Create Tech Watch</button>
+      </form>
+    </div>
+
+    <%- include('partial/footer') %> 
+    <%- include('partial/anim') %>
+  </body>
+</html>

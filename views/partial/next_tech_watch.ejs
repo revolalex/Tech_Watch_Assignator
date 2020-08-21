@@ -1,0 +1,27 @@
+<main>
+  <h2 class="title">Next-Tech-Watch</h2>
+  <div class="container">
+
+    <% newTab.forEach(element => { %>
+
+    <div class="sousContainer">
+      <h3 class="container_title"><%= element.groupsToAdd %></h3>
+      
+      <div class="container_student">
+        <p class="container_p">Student Affiliate :</p>
+        <% element.names.forEach(elem => { %>
+        <p class="container_name"><%= elem %></p>
+        <%}); %>
+      </div>
+
+      <div class="container_date">
+        <p class="container_p">When :</p>
+       
+        <p class="date"><%= moment(element.date).format('LLLL') %></p>
+      </div>
+
+    </div>
+    <% }) %>
+  </div>
+
+</main>

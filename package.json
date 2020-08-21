@@ -1,0 +1,31 @@
+{
+  "name": "tech-watch-assignator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurMV97/tech-watch-assignator.git"
+  },
+  "author": "revolalex@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurMV97/tech-watch-assignator/issues"
+  },
+  "homepage": "https://github.com/arthurMV97/tech-watch-assignator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dateformat": "^3.0.3",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
