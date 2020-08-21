@@ -56,7 +56,10 @@ Use MongoDB and Mongoose, Express, NodeJS, HTML, CSS, EJS...
     
 ## Screenshots:
 Front-End: <br>
-<img width="600" alt="Capture d’écran 2020-07-19 à 17 33 38" src="https://user-images.githubusercontent.com/56839789/90904024-0a5fb000-e3cf-11ea-8430-1661feddbd43.gif">
+<img width="600" alt="Capture d’écran 2020-07-19 à 17 33 38" src="https://user-images.githubusercontent.com/56839789/90904024-0a5fb000-e3cf-11ea-8430-1661feddbd43.gif"> <br>
+VS-Code <br>
+<img width="600" alt="Capture d’écran 2020-08-21 à 23 02 00" src="https://user-images.githubusercontent.com/56839789/90934953-80313f00-e402-11ea-9a67-6caf3b433c58.png">
+<br>
 
 
 
@@ -64,10 +67,15 @@ Front-End: <br>
 ## Structure:
 
 - /views for the front-end
+- /views/partial for the template
 - /publics for the css
 - /utils for the function 
 - api.js for the API
 - main.js for the server
+
+<br>
+<img width="248" alt="Capture d’écran 2020-08-21 à 23 05 37" src="https://user-images.githubusercontent.com/56839789/90935121-db633180-e402-11ea-8c73-ce18abba59a0.png">
+<br>
 
 
 
