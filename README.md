@@ -66,12 +66,12 @@ VS-Code <br>
 
 ## Structure:
 
-- /views for the front-end
-- /views/partial for the template
-- /publics for the css
-- /utils for the function 
-- api.js for the API
-- main.js for the server
+- /views  => for the front-end
+- /views/partial  => for the template
+- /publics  => for the css
+- /utils  => for the function 
+- api.js  => for the API
+- main.js  => for the server
 
 <br>
 <img width="248" alt="Capture d’écran 2020-08-21 à 23 05 37" src="https://user-images.githubusercontent.com/56839789/90935121-db633180-e402-11ea-8c73-ce18abba59a0.png">
