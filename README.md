@@ -1,10 +1,7 @@
 
 
 # Tech_Watch_Assignator
-[![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://github.com/revolalex/Tech_Watch_Assignator)
-[![Repos Badge](https://badges.pufler.dev/repos/puf17640)](https://github.com/revolalex)
-![Profile views](https://gpvc.arturio.dev/revolalex)  
-Full Stack Project (Front-End, Back-End, API, DB)
+
 > The goal was to realize a tech watch assignator for student 👩‍🎓 👨‍🎓 
 ---
 What the app can do:
