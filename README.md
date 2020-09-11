@@ -30,9 +30,11 @@ Use MongoDB and Mongoose, Express, NodeJS, HTML, CSS, EJS...
 - #### Node modules
   - body-parser
   - express
-  - fs
+  - ejs
   - jsonfile
   - nodemon
+  - fs
+  - ...
 
 
 ## Install
@@ -59,7 +61,7 @@ Use MongoDB and Mongoose, Express, NodeJS, HTML, CSS, EJS...
 Front-End: <br>
 <img width="600" alt="Capture d’écran 2020-07-19 à 17 33 38" src="https://user-images.githubusercontent.com/56839789/90904024-0a5fb000-e3cf-11ea-8430-1661feddbd43.gif"> <br>
 VS-Code <br>
-<img width="600" alt="Capture d’écran 2020-08-21 à 23 02 00" src="https://user-images.githubusercontent.com/56839789/90934953-80313f00-e402-11ea-9a67-6caf3b433c58.png">
+<img width="600" alt="Capture d’écran 2020-08-21 à 23 02 00" src="https://user-images.githubusercontent.com/56839789/90934953-80313f00-e402-11ea-9a67-6caf3b433c58.png">
 <br>
 
 
@@ -75,7 +77,7 @@ VS-Code <br>
 - main.js  => for the server
 
 <br>
-<img width="248" alt="Capture d’écran 2020-08-21 à 23 05 37" src="https://user-images.githubusercontent.com/56839789/90935121-db633180-e402-11ea-8c73-ce18abba59a0.png">
+<img width="248" alt="Capture d’écran 2020-08-21 à 23 05 37" src="https://user-images.githubusercontent.com/56839789/90935121-db633180-e402-11ea-8c73-ce18abba59a0.png">
 <br>
 
 
