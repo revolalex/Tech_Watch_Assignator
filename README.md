@@ -1,4 +1,4 @@
-
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FTech_Watch_Assignator" alt="Hits">.
 
 # Tech_Watch_Assignator
 
