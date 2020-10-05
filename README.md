@@ -1,3 +1,10 @@
+![](https://img.shields.io/badge/made%20with-javaScript-yellow?logo=javaScript).
+![](https://img.shields.io/badge/made%20with-node.js-success?logo=node.js).
+![](https://img.shields.io/badge/made%20with-mongoDB-blue?logo=mongoDB).
+
+<img src="https://img.shields.io/badge/Express-succes.svg" alt="Express">. 
+<img src="https://img.shields.io/badge/ejs-succes.svg" alt="ejs">.
+
 <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FTech_Watch_Assignator" alt="Hits">.
 
 # Tech_Watch_Assignator
@@ -77,6 +84,8 @@ VS-Code <br>
 <img width="248" alt="Capture d’écran 2020-08-21 à 23 05 37" src="https://user-images.githubusercontent.com/56839789/90935121-db633180-e402-11ea-8c73-ce18abba59a0.png">
 <br>
 
+## Status
+Project is:  _Finish_
 
 
 ## Contact	
